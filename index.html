@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio</title>
+    <link
+      rel="shortcut icon"
+      href="assets/dev-to-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <div class="stars"></div>
+    <div class="wrapper">
+      <!-- Navbar -->
+      <section id="navbar">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark text-light bg-body-dark pt-4 fixed-top mb-5"
+        >
+          <div class="container">
+            <img
+              src="assets/3d-heart.png"
+              alt="icon"
+              width="30"
+              height="30"
+            />
+            <a
+              class="navbar-brand fw-semibold ms-xl-0 ms-xxl-0 ms-lg-0 ms-5"
+              href="#"
+              >Portofolio</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav text-center ms-auto">
+                <a class="nav-link" aria-current="page" href="#jumbotron"
+                  >Home</a
+                >
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#projects">Project</a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!-- End Navbar -->
+
+      <!-- Jumbotron -->
+      <section id="Jumbotron" class="mt-5" style="margin-top: 100%;">
+        <div class="p-5 w bg-body-dark rounded-3 reveal">
+          <div class="container-fluid align-items-center">
+            <div class="row align-items-center">
+              <div class="col-md-7 fs-4 col-12">
+                <div class="text-jumbotron">
+                <h4 class="fw-semibold">— HELLO</h4>
+                <h1 class="display-5 fw-bold">I'm <span style="color:#A3AABE">Gabriel</span>ind Yoefita</h1>
+                <p class="fw-light">and now you're scrolling through my portofolio!</p>
+                </div>
+              </div>
+              <div class="col-md-5 col-12">
+                <div class="img-jumbotron">
+                <img
+                  src="assets/hehe.jpg"
+                  class="img-fluid"
+                  alt="img"
+                />
+                </div>
+              </div>
+              <div
+                class="arrow align-items-center w-100 d-flex flex-column"
+                id="arrow"
+              >
+                <a href="#about" class="text-decoration-none text-light"
+                  >More</a
+                >
+                <a href="#about" class="text-decoration-none text-light">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-arrow-down-circle-fill mt-2"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"
+                    /></svg
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Jumbotron -->
+
+      <!-- About -->
+      <section id="about">
+        <div class="p-5 bg-body-dark rounded-3 reveal">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div
+                class="col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column align-items-center text-center"
+              >
+                <h1 class="fw-bold">About</h1>
+                <p>
+                  An undergrad Information Systems major at
+                  <a
+                    id="link_gundar"
+                    href="https://gunadarma.ac.id/"
+                    target="_blank"
+                    class="text-white fw-semibold"
+                    >Gunadarma University</a
+                  >
+                  with a keen interest in designing user interfaces and some coding skills.
+                </p>
+                <p>
+                  Outside academia, you might find me scrolling through cat memes (because,
+                  let's face it, cats rule the internet).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About -->
+
+      <!-- Skills -->
+      <section id="skills">
+        <div class="p-5 bg-body-dark rounded-3 reveal">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div
+                class="col-12 skills-title d-flex flex-column justify-content-center align-items-center"
+              >
+                <h1 class="fw-bold">Skills</h1>
+              </div>
+              <div
+                class="col-12 row skillz mt-1 py-3 d-flex flex-row justify-content-center"
+              >
+                <div
+                  class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 skillz-category text-center mt-lg-0 mt-md-0 mt-3"
+                >
+                  <div class="skillz-label">Programming Languages</div>
+                  <div>
+                    <ul class="language-skills">
+                      <li><span class="skills_used_item">C++</span></li>
+                      <li><span class="skills_used_item">Java</span></li>
+                      <li><span class="skills_used_item">JavaScript</span></li>
+                      <li><span class="skills_used_item">PHP</span></li>
+                      <li><span class="skills_used_item">R</span></li>
+                      <li><span class="skills_used_item">SQL</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 tools-category text-center mt-lg-0 mt-md-0 mt-4"
+                >
+                  <div class="skillz-label">Tools</div>
+                  <div>
+                    <ul class="tools-skills">
+                      <li><span class="skills_used_item">Adobe Dreamweaver</span></li>
+                      <li><span class="skills_used_item">Canva</span></li>
+                      <li><span class="skills_used_item">Figma</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Skills -->
+
+      <!-- The Modal to zoom image -->
+      <div id="myModal" class="modal">
+        <img class="modal-content" id="img01" />
+        <div id="caption"></div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects">
+        <div class="p-5 bg-body-dark rounded-3 reveal">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div
+                class="col-12 skills-title d-flex flex-column justify-content-center align-items-center"
+              >
+                <h1 class="fw-bold">Projects</h1>
+              </div>
+              <div class="col-12 reveal">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="project-image">
+                      <img
+                        id="myImg"
+                        src="assets/project-1.png"
+                        class="img-fluid"
+                        alt="project-1"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="project-description mt-5">
+                      <h4>KiBar</h4>
+                      <p>
+                        Applied the User-Centered Design method to develop a UI/UX
+                        design for a barbershop located in Jatimakmur, Pondok Gede.
+                        This project focused on improving the user experience for
+                        booking appointments, managing profiles, and exploring services
+                        — all through a user-friendly mobile app.
+                      </p>
+                      <div
+                        class="mt-2 projects_used d-flex flex-row flex-wrap mb-3 mb-lg-0 mb-sm-0 mb-md-0 mb-xl-0 mb-xxl-0"
+                      >
+                        <span class="projects_used_item">Figma</span>
+                        <span class="projects_used_item">UI/UX</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-lg-4 mt-2 reveal">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-end">
+                    <div class="project-description mt-5">
+                      <h4>Mathics</h4>
+                      <p>
+                        Applied the Design Thinking method to develop a UI/UX website
+                        for an interactive math learning platforms aimed at elementary
+                        students. Infused math with play, our platform features
+                        enganging quizzes to make learning more enjoyable.
+                      </p>
+                      <div
+                        class="mt-2 projects_used d-flex flex-row mb-3 mb-lg-0 mb-sm-0 mb-md-0 mb-xl-0 mb-xxl-0 justify-content-end"
+                      >
+                        <span class="projects_used_item">Figma</span>
+                        <span class="projects_used_item">UI/UX</span>
+                        <span class="projects_used_item">JavaScript</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="project-image mt-4">
+                      <img
+                        id="myImg1"
+                        src="assets/project-2.png"
+                        class="img-fluid"
+                        alt="project-2"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Projects -->
+
+      <!--  -->
+      <section id=""></section>
+      <!--  -->
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div
+              class="contact-left col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-4 text-center text-sm-start text-md-start text-lg-start text-xl-start text-xxl-start"
+            >
+              <div class="top-contact-left">Designed with 🤍 by G. Yoefita</div>
+            </div>
+            <div
+              class="contact-right mb-3 mb-sm-0 mb-md-0 mb-lg-0 mb-xl-0 mb-xxl-0 col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8 col-xxl-8 text-center text-sm-end text-md-end text-lg-end text-xl-end text-xxl-end"
+            >
+              <a
+                href="mailto:g.yoefita@gmail.com"
+                target="_blank"
+                class="contact-right-item email mt-3 mt-lg-0"
+                >Email</a
+              >
+              <a
+                href="https://github.com/yoefita"
+                target="_blank"
+                class="contact-right-item github mt-3 mt-lg-0"
+                >Github</a
+              >
+              <a
+                href="https://instagram.com/a.bels"
+                target="_blank"
+                class="contact-right-item instagram mt-3 mt-lg-0"
+                >Instagram</a
+              >
+              <a
+                href="https://linkedin.com/in/yoefita"
+                target="_blank"
+                class="contact-right-item linkedin mt-3 mt-lg-0"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact -->
+
+      <!-- Floating action button -->
+      <div class="floating-action-button">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="black"
+          class="bi bi-arrow-up"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <!-- Bootstrap 5 js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
